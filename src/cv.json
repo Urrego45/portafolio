@@ -1,0 +1,213 @@
+{
+  "basics": {
+    "name": "Santiago Urrego Uribe",
+    "label": "Full Stack Developer con más de 2 años de experiencia.",
+    "image": "/me.jpg",
+    "email": "santiagourregou.4@gmail.com",
+    "phone": "+57 304639648",
+    "url": "https://midu.dev",
+    "summary": "+2 años de experiencia como Desarrollador Web. Vivo en Medellín, Colombia. He trabajado para el Servicio Nacional de Aprendizaje (SENA) y como contratista desarrollando aplicaciones web para la alcaldia del municipio de itagui.",
+    "location": {
+      "address": "",
+      "postalCode": "08820",
+      "city": "Medellin, Antioquia",
+      "countryCode": "ES",
+      "region": "Colombia"
+    },
+    "profiles": [
+      {
+        "network": "LinkedIn",
+        "username": "adhaliel",
+        "url": "https://www.linkedin.com/in/santiago-urrego-7016501b0/"
+      },
+      {
+        "network": "GitHub",
+        "username": "adhaliel",
+        "url": "https://github.com/Urrego45"
+      }
+    ]
+  },
+  "work": [
+    {
+      "name": "Inovación, investigación y desarrollo (IID+)",
+      "position": "Desarrollador Full Stack",
+      "url": "",
+      "startDate": "2022-03-01",
+      "endDate": "2023-12-1",
+      "summary": "Desarrollé gran parte de una aplicacion enfocada en la secretaria de servicios administrativos del municipio de itagui. Tomé requerimeintos a clientes ademas de realizar la documentacion correspondiente, ademas del proyecto mismo. Presenté el proyecto al cliente final.",
+      "highlights": [
+        "Reconocimiento"
+      ],
+      "tecnolys": [
+        "Vue",
+        "Django Rest Framework",
+        "Docker",
+        "Azure DevOps",
+        "FlaskAPi",
+        "SQL Server",
+        "Postgres SQL"
+      ]
+    },
+    {
+      "name": "Servicio Nacional de Aprendizaje (SENA)",
+      "position": "Desarrollador Full Stack",
+      "url": "",
+      "startDate": "2021-06-01",
+      "endDate": "2022-02-01",
+      "summary": "Apoyé en el desarrollo de la aplicación sena me cuida. Usando los usuarios creé roles y formularios de acuerdo a la funcion de cada uno, ademas de realizar el envio masivo correos electronicos desde NodeJs.",
+      "highlights": [
+        "Started the company"
+      ],
+      "tecnolys": [
+        "NodeJs",
+        "React",
+        "Git",
+        "MongoDB"
+      ]
+    }
+  ],
+  "volunteer": [{
+    "organization": "Organization",
+    "position": "Volunteer",
+    "url": "https://organization.com/",
+    "startDate": "2012-01-01",
+    "endDate": "2013-01-01",
+    "summary": "Description…",
+    "highlights": [
+      "Awarded 'Volunteer of the Month'"
+    ]
+  }],
+  "education": [{
+    "institution": "Universitat Oberta de Catalunya",
+    "url": "https://www.uoc.edu/portal/es/index.html",
+    "area": "Ingeniero de Software",
+    "studyType": "Bachelor",
+    "startDate": "2003-01-01",
+    "endDate": "2009-01-01",
+    "score": "4.0",
+    "courses": [
+      "DB1101 - Basic SQL"
+    ]
+  }],
+  "awards": [{
+    "title": "Award",
+    "date": "2014-11-01",
+    "awarder": "Company",
+    "summary": "There is no spoon."
+  }],
+  "certificates": [{
+    "name": "Certificate",
+    "date": "2021-11-07",
+    "issuer": "Company",
+    "url": "https://certificate.com"
+  }],
+  "publications": [{
+    "name": "Publication",
+    "publisher": "Company",
+    "releaseDate": "2014-10-01",
+    "url": "https://publication.com",
+    "summary": "Description…"
+  }],
+  "skills": [
+    {
+      "name": "JavaScript",
+      "level": "Master",
+      "keywords": [
+        "Desarrollo Web", "Frontend", "Backend", "Fullstack"
+      ]
+    },
+    {
+      "name": "NodeJS",
+      "level": "Avanzado",
+      "keywords": [
+        "Desarrollo Web", "Frontend", "CSS Framework", "Diseño Responsive"
+      ]
+    },
+    {
+      "name": "SQL Server",
+      "level": "Avanzado",
+      "keywords": [
+        "Bases de Datos", "SQL", "Almacenamiento de Datos", "Backend"
+      ]
+    },
+    {
+      "name": "Postgres SQL",
+      "level": "Avanzado",
+      "keywords": [
+        "Bases de Datos", "SQL", "Almacenamiento de Datos", "Backend"
+      ]
+    },
+    {
+      "name": "GitHub",
+      "level": "Avanzado",
+      "keywords": [
+        "Control de Versiones", "Colaboración", "Código Fuente", "Git"
+      ]
+    },
+    {
+      "name": "React",
+      "level": "Avanzado",
+      "keywords": [
+        "Desarrollo Web", "Frontend", "JavaScript Library", "UI"
+      ]
+    },
+    {
+      "name": "Vue",
+      "level": "Avanzado",
+      "keywords": [
+        "Desarrollo Web", "Frontend", "JavaScript Library", "UI"
+      ]
+    },
+    {
+      "name": "Django Rest Framework",
+      "level": "Avanzado",
+      "keywords": [
+        "Desarrollo Web", "Frontend", "JavaScript Library", "UI"
+      ]
+    },
+    {
+      "name": "Docker",
+      "level": "Avanzado",
+      "keywords": [
+        "Desarrollo Web", "Frontend", "JavaScript Library", "UI"
+      ]
+    },
+    {
+      "name": "Azure DevOps",
+      "level": "Avanzado",
+      "keywords": [
+        "Desarrollo Web", "Frontend", "JavaScript Library", "UI"
+      ]
+    }
+  ],
+  "languages": [
+    {
+      "language": "Spanish",
+      "fluency": "Native speaker"
+    },
+    {
+      "language": "English",
+      "fluency": "Advanced"
+    }
+  ],
+  "interests": [{
+    "name": "Wildlife",
+    "keywords": [
+      "Ferrets",
+      "Unicorns"
+    ]
+  }],
+  "references": [{
+    "name": "Jane Doe",
+    "reference": "Reference…"
+  }],
+  "projects": [
+    {
+      "name": "MERN - Aauth",
+      "isActive": false,
+      "description": "Proyecto basico del stack MERN con autentificación con JWT",
+      "highlights": [],
+      "url": "https://github.com/Urrego45/crud-mern-auth"
+    }
+  ]
+}
