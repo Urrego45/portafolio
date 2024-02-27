@@ -1,17 +1,25 @@
 ---
 import Section from "../Section.astro"
+import moment from 'moment';
 
 import { work } from "../../cv.json"
 
+moment.locale('es');
+
+const formatDate = (date: string) => {
+  let strDate = moment(date).format('MMMM [del] YYYY')
+  return strDate.charAt(0).toUpperCase() + strDate.slice(1);
+}
 
 ---
+
 
 <Section title="Experiencia">
   <ul>
     {
       work.map(({ name, startDate, endDate, position, summary, highlights}) => {
-        const startYear = new Date(startDate).getFullYear()
-        const endYear = endDate !== null ? new Date(endDate).getFullYear() : "Actual"
+        const startYear = formatDate(startDate)
+        const endYear = endDate !== null ? formatDate(endDate) : "Actual"
         const years = `${startYear} - ${endYear}`
 
         return (

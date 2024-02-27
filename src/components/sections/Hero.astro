@@ -33,34 +33,18 @@ const printInfo = [email, phone, linkedUrl].filter(Boolean).join(" • ")
         <WorldMap />
         {city}, {region}
       </span>
+      <span>
+        <Mail />
+        {email}
+      </span>
+      <span>
+        <Phone />
+        {phone}
+      </span>
       <footer class="print">
         {printInfo}
       </footer>
       <footer class="no-print">
-        {
-          email && (
-            <a 
-              href={`mailto:${email}`}
-              title={`Enviar un correo electronico a ${name} al correo ${email}`}
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              <Mail />
-            </a>
-          )
-        }
-        {
-          phone && (
-            <a 
-              href={`tel:${phone}`}
-              title={`Llamar por teléfono a ${name} al número ${phone}`}
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              <Phone />
-            </a>
-          )
-        }
         {
           profiles.map(({ network, url, username }) => {
             const Icon = SOCIAL_ICONS[network]

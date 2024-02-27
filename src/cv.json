@@ -4,7 +4,7 @@
     "label": "Full Stack Developer con más de 2 años de experiencia.",
     "image": "/me.jpg",
     "email": "santiagourregou.4@gmail.com",
-    "phone": "+57 304639648",
+    "phone": "+57 301 4639648",
     "url": "https://midu.dev",
     "summary": "+2 años de experiencia como Desarrollador Web. Vivo en Medellín, Colombia. He trabajado para el Servicio Nacional de Aprendizaje (SENA) y como contratista desarrollando aplicaciónes web para la alcaldia del municipio de itagüi.",
     "location": {
@@ -54,7 +54,7 @@
       "url": "",
       "startDate": "2021-06-01",
       "endDate": "2022-02-01",
-      "summary": "Apoyé en el desarrollo de la aplicación sena me cuida. Usando los usuarios creé roles y formularios de acuerdo a la función de cada uno, ademas de realizar el envio masivo correos electronicos desde NodeJs.",
+      "summary": "Apoyé en el desarrollo de la aplicación sena me cuida. Usando los usuarios creé roles y formularios de acuerdo a la función de cada uno, ademas de realizar el envio masivo de correos electronicos desde NodeJs.",
       "highlights": [
         "Started the company"
       ],
