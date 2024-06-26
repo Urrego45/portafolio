@@ -17,7 +17,7 @@ const formatDate = (date: string) => {
 <Section title="Experiencia">
   <ul>
     {
-      work.map(({ name, startDate, endDate, position, summary, highlights}) => {
+      work.map(({ name, startDate, endDate, position, tecnolys, highlights, summary}) => {
         const startYear = formatDate(startDate)
         const endYear = endDate !== null ? formatDate(endDate) : "Actual"
         const years = `${startYear} - ${endYear}`
@@ -36,7 +36,16 @@ const formatDate = (date: string) => {
 
               <footer>
                 <p>{summary}</p>
+                
+                <footer>
+                  {
+                    tecnolys.map((tecnolys) => {
+                      return <span>{tecnolys}</span>
+                    })
+                  }
+                </footer>
               </footer>
+
             </article>
           </li>
         )
@@ -72,6 +81,22 @@ const formatDate = (date: string) => {
   time {
     color: #555;
     font-size: 0.85rem;
+  }
+
+  footer {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 4px;
+    font-size: 0.6rem;
+  }
+
+  footer span {
+    border-radius: 6px;
+    background: #eee;
+    color: #444;
+    font-size: 0.6rem;
+    font-weight: 500;
+    padding: 0.2rem 0.6rem;
   }
 
 </style>

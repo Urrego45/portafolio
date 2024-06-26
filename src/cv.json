@@ -36,16 +36,10 @@
       "endDate": "2023-12-1",
       "summary": "Desarrollé gran parte de una aplicación enfocada en la secretaría de servicios administrativos del municipio de itagüi. Tomé requerimeintos a clientes ademas de realizar la documentación correspondiente, ademas del proyecto mismo. Presenté el proyecto al cliente final.",
       "highlights": [
-        "Reconocimiento"
+        "Reconocimiento de la alcaldia"
       ],
       "tecnolys": [
-        "Vue",
-        "Django Rest Framework",
-        "Docker",
-        "Azure DevOps",
-        "FlaskAPi",
-        "SQL Server",
-        "Postgres SQL"
+        "Django Rest Framework", "Azure DevOps", "Vue2", "Vue3", "Quasar", "Docker", "Flask", "Sql Server", "Postgresql", "Api", "Git"
       ]
     },
     {
@@ -56,10 +50,11 @@
       "endDate": "2022-02-01",
       "summary": "Apoyé en el desarrollo de la aplicación sena me cuida. Usando los usuarios creé roles y formularios de acuerdo a la función de cada uno, ademas de realizar el envio masivo de correos electronicos desde NodeJs.",
       "highlights": [
-        "Started the company"
+        ""
       ],
       "tecnolys": [
         "NodeJs",
+        "Express",
         "React",
         "Git",
         "MongoDB"
@@ -205,9 +200,16 @@
     {
       "name": "MERN - Aauth",
       "isActive": false,
-      "description": "Proyecto basico del stack MERN con autentificación con JWT",
-      "highlights": [],
+      "description": "Proyecto basico del stack MERN con autentificación con JWT.",
+      "highlights": ["React", "NodeJs", "Express", "MongoDB", "JWT", "Docker"],
       "url": "https://github.com/Urrego45/crud-mern-auth"
+    },
+    {
+      "name": "Parqueadero (Desarrollo)",
+      "isActive": true,
+      "description": "Proyecto en desarrollo que sirve para gestionar la entrada, salida y cupo de los vehículos en un parqueadero junto con el precio total a cobrar.",
+      "highlights": ["React", "NodeJs", "Express", "Postgresql", "JWT", "Docker"],
+      "url": "https://github.com/Urrego45/parqueadero"
     }
   ]
 }
